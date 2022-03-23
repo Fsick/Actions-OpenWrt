@@ -16,3 +16,19 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 echo 'src-git sundaqiang https://github.com/sundaqiang/openwrt-packages-backup' >>feeds.conf.default
+
+# Add OpenWrt-Actions package feed source
+# echo 'src-git OpenWrt_Actions https://github.com/OpenWrt-Actions/helloworld.git' >>feeds.conf.default
+# echo 'src-git OpenWrt_Actions https://github.com/OpenWrt-Actions/helloworld.git' >>feeds.conf.default
+
+# Add sundaqiang-packages feed source
+# echo 'src-git sundaqiang-packages https://github.com/sundaqiang/openwrt-packages.git' >>feeds.conf.default
+
+# Add Small-packages package feed source
+echo 'src-git small8 https://github.com/kenzok8/small-package' >>feeds.conf.default
+
+# Add MrH723-packages package feed source
+echo 'src-git MrH723 https://github.com/MrH723/openwrt-packages.git' >> "feeds.conf.default"
+
+# Add Openwrt-Passwall package feed source
+#echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
